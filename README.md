@@ -1,4 +1,4 @@
-# Gazebo_go2_for_3d_navigation
+# Gazebo Go2 Quadbot for 3D Autonomous Navigation
 
 ## Overview
 This repository provides a simplified simulation of the Unitree Go2 quadruped robot in a Gazebo world.  
