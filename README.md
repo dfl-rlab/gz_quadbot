@@ -5,7 +5,7 @@ This repository provides a simplified simulation of the Unitree Go2 quadruped ro
 It could integrate with the [dddmr_navigation](https://github.com/dfl-rlab/dddmr_navigation) stack and has already been tested for 3D mapping and navigation capabilities.
 
 <p align='center'>
-    <img src="https://github.com/dfl-rlab/dddmr_documentation_materials/blob/main/gazebo_3d_navigation/quad_3d_nav_gz.gif" width="800" height="400"/>
+    <img src="https://github.com/dfl-rlab/dddmr_documentation_materials/blob/main/gazebo_3d_navigation/quad_3d_nav_gz_.gif" width="800" height="400"/>
 </p>
 
 ## How to use
