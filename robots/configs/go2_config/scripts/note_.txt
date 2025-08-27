@@ -1,0 +1,13 @@
+python3 gz_pose_to_ros2.py \
+  --entity go2 \
+  --gz-topic /gazebo/default/pose/local/info \
+  --odom-topic /odom \
+  --tf-parent odom \
+  --tf-child base_link \
+  --idle-timeout 5 \
+  --max-backoff 10 \
+  --median-window 3 \
+  --alpha 0.3 \
+  --deadband-lin 0.01 \
+  --deadband-ang 0.01 \
+  --max-dt 0.5
