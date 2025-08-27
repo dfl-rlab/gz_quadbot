@@ -1,17 +1,23 @@
 # Gazebo Go2 Quadbot for 3D Autonomous Navigation
 
 ## Overview
-This repository provides a simplified simulation of the Unitree Go2 quadruped robot in a Gazebo world.  
-It could integrate with the [dddmr_navigation](https://github.com/dfl-rlab/dddmr_navigation) stack and has already been tested for 3D mapping and navigation capabilities.
+This repository provides a lightweight and ready-to-use simulation of the Unitree Go2 quadruped robot in a Gazebo world.  
+Paired with the [dddmr_navigation](https://github.com/dfl-rlab/dddmr_navigation) stack,  you can quickly try out **3D mapping and autonomous navigation** without setting up everything from scratch.  It’s here to give you an easy starting point for getting into 3D navigation.
+
+
 
 <p align='center'>
     <img src="https://github.com/dfl-rlab/dddmr_documentation_materials/blob/main/gazebo_3d_navigation/quad_3d_nav_gz_.gif" width="800" height="400"/>
 </p>
 
 ## How to use
-To make this simulation work with `dddmr_navigation`, you’ll need to follow the beginner guide first.  
-Please head over to the [dddmr_beginner_guide](https://github.com/dfl-rlab/dddmr_navigation/tree/main/src/dddmr_beginner_guide),  
-where you’ll find a step-by-step tutorial on setting up and integrating the navigation stack.  
+To unlock the full 3D navigation experience, you’ll need to integrate this simulation with the `dddmr_navigation` stack.  
+
+👉 Start by following the step-by-step guide here:  [**dddmr_beginner_guide**](https://github.com/dfl-rlab/dddmr_navigation/tree/main/src/dddmr_beginner_guide)  
+
+The guide will walk you through everything you need — from setup to your first navigation test.  
+By the end, you’ll have Gazebo and 3D navigation up and running, ready to explore and learn.
+
 
 ## Acknowledgements
 
