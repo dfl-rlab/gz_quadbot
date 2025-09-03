@@ -106,8 +106,8 @@
           <surface>
             <friction>
               <ode>
-                <mu>1000</mu>
-                <mu2>1000</mu2>
+                <mu>2000</mu>
+                <mu2>2000</mu2>
                 <slip1>0.0</slip1>
                 <slip2>0.0</slip2>
               </ode>
@@ -196,8 +196,8 @@
           <surface>
             <friction>
               <ode>
-                <mu>1000</mu>
-                <mu2>1000</mu2>
+                <mu>2000</mu>
+                <mu2>2000</mu2>
                 <slip1>0.0</slip1>
                 <slip2>0.0</slip2>
               </ode>
@@ -311,7 +311,7 @@
         <collision name="col">
           <geometry>
             <cylinder>
-              <radius>0.3</radius>
+              <radius>1.0</radius>
               <length>2.0</length>
             </cylinder>
           </geometry>
@@ -327,7 +327,7 @@
         <visual name="vis">
           <geometry>
             <cylinder>
-              <radius>0.3</radius>
+              <radius>1.0</radius>
               <length>2.0</length>
             </cylinder>
           </geometry>
@@ -337,7 +337,7 @@
           </material>
         </visual>
       </link>
-      <pose>3 2 1.0 0 0 0</pose>
+      <pose>7.5 5 1.0 0 0 0</pose>
     </model>
 
     <model name="pillar_2">
@@ -346,7 +346,7 @@
         <collision name="col">
           <geometry>
             <cylinder>
-              <radius>0.3</radius>
+              <radius>1.0</radius>
               <length>2.0</length>
             </cylinder>
           </geometry>
@@ -362,7 +362,7 @@
         <visual name="vis">
           <geometry>
             <cylinder>
-              <radius>0.3</radius>
+              <radius>1.0</radius>
               <length>2.0</length>
             </cylinder>
           </geometry>
@@ -381,7 +381,7 @@
         <collision name="col">
           <geometry>
             <cylinder>
-              <radius>0.3</radius>
+              <radius>1.0</radius>
               <length>2.0</length>
             </cylinder>
           </geometry>
@@ -397,7 +397,7 @@
         <visual name="vis">
           <geometry>
             <cylinder>
-              <radius>0.3</radius>
+              <radius>1.0</radius>
               <length>2.0</length>
             </cylinder>
           </geometry>
@@ -873,6 +873,72 @@
     </visual>
   </link>
   <pose>-23 27 5.0 0 0 0</pose>
+</model>
+
+<model name="box_14">
+  <static>true</static>
+  <link name="link">
+    <collision name="col">
+      <geometry>
+        <box>
+          <size>2.0 2.0 10.0</size>
+        </box>
+      </geometry>
+      <surface>
+        <friction>
+          <ode>
+            <mu>200</mu>
+            <mu2>200</mu2>
+          </ode>
+        </friction>
+      </surface>
+    </collision>
+    <visual name="vis">
+      <geometry>
+        <box>
+          <size>2.0 2.0 10.0</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.9 0.6 0.9 1</ambient>
+        <diffuse>0.9 0.6 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+  <pose>5 -10 5.0 0 0 0</pose>
+</model>
+
+<model name="box_15">
+  <static>true</static>
+  <link name="link">
+    <collision name="col">
+      <geometry>
+        <box>
+          <size>2.0 2.0 10.0</size>
+        </box>
+      </geometry>
+      <surface>
+        <friction>
+          <ode>
+            <mu>200</mu>
+            <mu2>200</mu2>
+          </ode>
+        </friction>
+      </surface>
+    </collision>
+    <visual name="vis">
+      <geometry>
+        <box>
+          <size>2.0 2.0 10.0</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.9 0.6 0.9 1</ambient>
+        <diffuse>0.9 0.6 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+  <pose>-5 -10 5.0 0 0 0</pose>
 </model>
 
     <!-- 物理與場景 -->
